@@ -1,0 +1,4 @@
+To define our own pytorch dataset, we should success from the class 'torch.utils.data.Dataset'.
+We just have to define our own function ' __len__(self)' and function '__getitem__(self, idx)'.
+function '__len__(self)' return the length of the input files.
+function '__getitem__(self, idx)' return the item of the file corresponding to index 'idx'.
